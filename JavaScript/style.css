@@ -1,0 +1,74 @@
+#snake-field{
+    display: inline-block; 
+}
+
+
+#snake-renew, #snake-start{ 
+    width: 300px;
+    padding: 30px; color: white;
+    background-color: rgb(9, 55, 128);
+    text-align: center;
+    cursor: pointer; 
+    float: left;
+    margin-right: 10px;
+}
+.game-table{
+    border-collapse: collapse;
+    background-color: rgb(90, 139, 17);
+}
+/* Четные строки */
+/* .game-table tr:nth-child(odd),.game-table td:nth-child(even){
+    background-color: green; */
+/* } */
+
+/* Нечетные строки */
+/* .game-table td:nth-child(odd) {
+    background-color: greenyellow;
+} */
+
+
+
+
+/* tr.game-table-row{
+    height: 15px;
+    width: 15px;
+
+} */
+td.game-table-cell{     
+    width: 30px;
+    height: 30px;  
+    border: 1px dotted #eee;
+    }
+.snake-unit{
+    background-color: rgba(102, 16, 16, 0.789);
+    }
+.food-unit{
+    background-color: rgb(9, 55, 128);
+    }
+.buttons{
+    display: inline-block;
+    }
+.wrap {
+    margin: 30px auto 0; text-align: center;
+    }
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.purple {
+    background-color: purple;
+}
+
+    
